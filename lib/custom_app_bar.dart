@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 class CustomAppBar extends StatelessWidget {
   CustomAppBar(
       {required this.title,
@@ -26,7 +25,8 @@ class CustomAppBar extends StatelessWidget {
           ),
           Text(
             title,
-            style: GoogleFonts.poppins(fontSize: 26, fontWeight: FontWeight.w500),
+            style:
+                GoogleFonts.poppins(fontSize: 26, fontWeight: FontWeight.w500),
           ),
           Visibility(
             child: IconButton(

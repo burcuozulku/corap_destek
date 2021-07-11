@@ -11,26 +11,26 @@ class Background extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(children: [
       SvgIcons(
-          top: 0,
-          left: 0,
+          top: 290,
+          left: -10,
           height: 200,
           width: 200,
           svgName: svgIcon2,
           degree: 0),
       SvgIcons(
           top: 60,
-          left: 35,
+          left: 280,
           height: 150,
           width: 150,
           svgName: svgIcon7,
           degree: -30),
       SvgIcons(
-          top: 550,
-          left: -10,
+          top: 620,
+          left: 300,
           height: 150,
           width: 150,
           svgName: svgIcon3,
-          degree: 15),
+          degree: -20),
     ]);
   }
 }
